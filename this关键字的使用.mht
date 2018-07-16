@@ -1,0 +1,601 @@
+Date: Fri, 13 Jul 2018 19:00:01 +0800
+Message-ID: <0001053c$53c30400$35facf10$EverNote>
+MIME-Version: 1.0
+Content-Type: text/html; 
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Evernote® v6.11.2.7027
+
+<html>
+<head>
+  <title>Evernote Export</title>
+  <basefont face=3D"=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91" size=3D"2" />
+  <meta http-equiv=3D"Content-Type" =
+content=3D"text/html;charset=3Dutf-8" />
+  <meta name=3D"exporter-version" content=3D"Evernote Windows/307027 =
+(zh-CN, DDL); Windows/10.0.0 (Win64);"/>
+  <style>
+    body, td {
+      font-family: =E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name=3D"2444"/>
+
+<div>=0A<span><div><div><span style=3D"font-weight: bold; font-size: =
+24.0pt; font-family: &quot;Simsun&quot;,serif; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-bidi-font-family: =E5=AE=8B=E4=BD=93; color: =
+black; mso-font-kerning: =
+18.0pt;-en-paragraph:true;">JavaScript</span><span style=3D"font-weight: =
+bold; font-size: 24.0pt; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Simsun; mso-hansi-font-family: Simsun; =
+mso-bidi-font-family: =E5=AE=8B=E4=BD=93; color: black; =
+mso-font-kerning: 18.0pt;-en-paragraph:true;">=E4=B8=AD</span><span =
+style=3D"font-weight: bold; font-size: 24.0pt; font-family: =
+&quot;Simsun&quot;,serif; mso-fareast-font-family: =E5=AE=8B=E4=BD=93; =
+mso-bidi-font-family: =E5=AE=8B=E4=BD=93; color: black; =
+mso-font-kerning: 18.0pt;-en-paragraph:true;">This</span><span =
+style=3D"font-weight: bold; font-size: 24.0pt; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Simsun; =
+mso-hansi-font-family: Simsun; mso-bidi-font-family: =E5=AE=8B=E4=BD=93; =
+color: black; mso-font-kerning: =
+18.0pt;-en-paragraph:true;">=E5=88=B0=E5=BA=95=E6=8C=87=E5=93=AA=E4=B8=AA=
+=E5=AF=B9=E8=B1=A1</span><span style=3D"font-weight: bold; font-size: =
+24.0pt; font-family: &quot;Simsun&quot;,serif; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-bidi-font-family: =E5=AE=8B=E4=BD=93; color: =
+black; mso-font-kerning: 18.0pt;-en-paragraph:true;">?</span></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=E5=85=88=E6=9D=A5=E7=9C=8B=E8=BF=99=E4=B8=80=E6=AE=B5=E4=BB=A3=E7=
+=A0=81</font></span></div><table style=3D"border-collapse: collapse; =
+min-width: 100%;"><colgroup><col style=3D"width: =
+426px;"></col></colgroup><tbody><tr =
+style=3D"mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes"><td =
+style=3D"background-color: rgb(242, 242, 242); width: 426px; padding: =
+8px; border: 1px solid rgb(204, 204, 204);"><div style=3D"margin-top: =
+1em; margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"font-family: Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">target.</span><span style=3D"font-family: =
+Consolas; color: rgb(219, 120, 0);-en-paragraph:true;">onclick</span> =
+<span style=3D"font-family: Consolas; color: rgb(87, 121, =
+9);-en-paragraph:true;">=3D</span> <span style=3D"font-family: Consolas; =
+color: rgb(54, 75, 192);-en-paragraph:true;">function</span><span =
+style=3D"font-family: Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">(){</span></font></div><div style=3D"margin-top: =
+1em; margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"font-family: Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">=C2=A0=C2=A0</span> <span style=3D"font-family: =
+Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">console.log(this);</span></font></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"font-family: Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">}</font></span></div></td></tr></tbody></table><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=E8=AF=B7=E9=97=AE=E8=BF=99=E9=87=8C=E6=89=93=E5=8D=B0=E5=87=BA=E4=
+=BB=80=E4=B9=88=EF=BC=9F</font></span></div><div style=3D"margin-top: =
+1em; margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"font-weight: bold; mso-bidi-font-weight: normal; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E5=BE=88=E6=98=BE=E7=84=B6=EF=BC=8C=E4=BC=
+=9A=E6=89=93=E5=8D=B0=E5=87=BA</span><span style=3D"font-weight: bold; =
+mso-bidi-font-weight: normal;-en-paragraph:true;">target</span><span =
+style=3D"font-weight: bold; mso-bidi-font-weight: normal; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E5=AF=B9=E8=B1=A1=E6=9C=AC=E8=BA=AB=E3=80=
+=82</span></font></div><div style=3D"margin-top: 1em; margin-bottom: =
+1em;"><font style=3D"font-size: 12pt;"><span style=3D"font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E6=88=91=E4=BB=AC=E9=83=BD=E7=9F=A5=E9=81=
+=93=EF=BC=8C</span><span style=3D"font-weight: bold; =
+mso-bidi-font-weight: normal;-en-paragraph:true;">this</span> <span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E7=9A=84=E5=90=AB=E4=B9=89</span> =
+<span style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E4=BB=A3=E8=A1=A8</span> <span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: =
+red;-en-paragraph:true;">=E5=BD=93=E5=89=8D=E5=AF=B9=E8=B1=A1</span><span=
+ style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=EF=BC=8C=E8=AF=A5=E5=A6=82=E4=BD=95=E6=9D=
+=A5=E7=90=86=E8=A7=A3</span><span style=3D"font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+font-weight: bold; mso-bidi-font-weight: normal; color: =
+red;-en-paragraph:true;">=E5=BD=93=E5=89=8D</span><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E4=BA=8C=E5=AD=97=E5=91=A2=EF=BC=9F</sp=
+an></font></div><div style=3D"margin-top: 1em; margin-bottom: =
+1em;"><span style=3D"-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=C2=A0</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=E4=BB=BB=E4=BD=95=E7=9A=84=E8=AF=9D=E9=83=BD=E9=9C=80=E8=A6=81=E8=
+=AF=AD=E5=A2=83=EF=BC=8C=E4=B8=8A=E4=B8=8B=E6=96=87=E7=8E=AF=E5=A2=83=EF=BC=
+=8C=E6=94=BE=E5=9C=A8=E4=B8=8D=E5=90=8C=E7=9A=84=E5=9C=B0=E6=96=B9=EF=BC=8C=
+=E5=90=AB=E4=B9=89=E5=8F=AF=E8=83=BD=E5=B0=B1=E5=A4=A7=E4=B8=8D=E7=9B=B8=E5=
+=90=8C=E3=80=82</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=E5=BD=93=E6=9C=89=E4=B8=80=E4=B8=AA=E4=BA=BA=E5=AF=B9=E7=9D=80=E4=
+=BD=A0=E5=A4=A7=E5=96=8A=E4=B8=80=E5=A3=B0=EF=BC=9A=E5=BC=80=EF=BC=81</fo=
+nt></span></div><div style=3D"margin-top: 1em; margin-bottom: =
+1em;"><span style=3D"font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=E5=A6=82=E6=9E=9C=E4=BD=A0=E6=89=8B=E9=87=8C=E6=9C=89=E6=8A=8A=E6=
+=9E=AA=EF=BC=8C=E4=BD=A0=E4=BC=9A=E6=89=A3=E5=8A=A8=E6=89=B3=E6=9C=BA=E3=80=
+=82=E5=A6=82=E6=9E=9C=E4=BD=A0=E5=9D=90=E5=9C=A8=E6=B1=BD=E8=BD=A6=E9=87=8C=
+=EF=BC=8C=E4=BD=A0=E4=BC=9A=E8=B8=A9=E6=B2=B9=E9=97=A8=E3=80=82=E5=A6=82=E6=
+=9E=9C=E4=BD=A0=E7=AB=99=E5=9C=A8=E9=98=B3=E5=8F=B0=EF=BC=8C=E4=BD=A0=E5=8F=
+=AF=E8=83=BD=E4=BC=9A=E6=89=93=E5=BC=80=E7=AA=97=E6=88=B7=E3=80=82=E5=A6=82=
+=E6=9E=9C=E4=BD=A0=E5=9C=A8=E6=89=93=E9=BA=BB=E5=B0=86=EF=BC=8C=E5=AF=B9=E6=
+=96=B9=E5=8F=AF=E8=83=BD=E8=83=A1=E7=89=8C=E4=BA=86=E3=80=82=E3=80=82=E3=80=
+=82=E3=80=82</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"font-weight: bold; mso-bidi-font-weight: =
+normal;-en-paragraph:true;">THIS</span><span style=3D"font-weight: bold; =
+mso-bidi-font-weight: normal; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E8=BA=AB=E4=B8=BA=E4=B8=80=E4=B8=AA=E5=85=
+=B3=E9=94=AE=E5=AD=97=EF=BC=8C=E5=AE=83=E6=89=80=E6=8C=87=E4=BB=A3=E7=9A=84=
+=E6=98=AF=E6=AD=A4=E5=88=BB=E6=AD=A3=E5=9C=A8=E8=BF=90=E8=A1=8C=E7=9A=84=E5=
+=87=BD=E6=95=B0=E4=BE=9D=E9=99=84=E4=BA=8E=E5=93=AA=E4=B8=AA=E5=AF=B9=E8=B1=
+=A1=E3=80=82</span></font></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"font-weight: bold; =
+mso-bidi-font-weight: normal;-en-paragraph:true;"><font =
+style=3D"font-size: 12pt;">=C2=A0</font></span></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"font-weight: bold; mso-bidi-font-weight: =
+normal;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=C2=A0</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=E5=86=8D=E6=9D=A5=E7=9C=8B=E8=BF=99=E4=B8=80=E6=AE=B5=E4=BB=A3=E7=
+=A0=81</font></span></div><table style=3D"border-collapse: collapse; =
+min-width: 100%;"><colgroup><col style=3D"width: =
+426px;"></col></colgroup><tbody><tr =
+style=3D"mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes"><td =
+style=3D"background-color: rgb(242, 242, 242); width: 426px; padding: =
+8px; border: 1px solid rgb(204, 204, 204);"><div style=3D"margin-top: =
+1em; margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"font-family: Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">target.</span><span style=3D"font-family: =
+Consolas; color: rgb(219, 120, 0);-en-paragraph:true;">onclick</span> =
+<span style=3D"font-family: Consolas; color: rgb(87, 121, =
+9);-en-paragraph:true;">=3D</span> <span style=3D"font-family: Consolas; =
+color: rgb(54, 75, 192);-en-paragraph:true;">function</span><span =
+style=3D"font-family: Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">(){</span></font></div><div style=3D"margin-top: =
+1em; margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"font-family: Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">=C2=A0=C2=A0</span> <span style=3D"font-family: =
+Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">console.log(this);</span></font></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"font-family: Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">}</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"font-family: Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">obj.test =3D target.</span><span =
+style=3D"font-family: Consolas; color: rgb(219, 120, =
+0);-en-paragraph:true;">onclick</span><span style=3D"font-family: =
+Consolas; color: rgb(8, 8, =
+8);-en-paragraph:true;">;</span></font></div></td></tr></tbody></table><d=
+iv style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=C2=A0</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=E7=84=B6=E5=90=8E=E6=88=91=E4=BB=AC=E6=B5=8B=E8=AF=95=E4=B8=80=E4=
+=B8=8B</font></span></div><table style=3D"border-collapse: collapse; =
+min-width: 100%;"><colgroup><col style=3D"width: =
+426px;"></col></colgroup><tbody><tr =
+style=3D"mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes"><td =
+style=3D"background-color: rgb(242, 242, 242); width: 426px; padding: =
+8px; border: 1px solid rgb(204, 204, 204);"><div style=3D"margin-top: =
+1em; margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"font-family: Consolas; color: rgb(38, 38, =
+38);-en-paragraph:true;">target.onclick();</span> <span =
+style=3D"font-family: Consolas; color: rgb(0, 176, =
+80);-en-paragraph:true;">//</span> <span style=3D"font-family: =
+=E5=AE=8B=E4=BD=93; color: rgb(0, 176, =
+80);-en-paragraph:true;">=E7=BB=93=E6=9E=9C=E6=98=AF</span> <span =
+style=3D"font-family: Consolas; color: rgb(0, 176, =
+80);-en-paragraph:true;">target</span><span style=3D"font-family: =
+=E5=AE=8B=E4=BD=93; color: rgb(0, 176, =
+80);-en-paragraph:true;">=E5=AF=B9=E8=B1=A1=E6=9C=AC=E8=BA=AB</span></fon=
+t></div><div style=3D"margin-top: 1em; margin-bottom: 1em;"><font =
+style=3D"font-size: 12pt;"><span style=3D"font-family: Consolas; color: =
+rgb(38, 38, 38);-en-paragraph:true;">obj.test();</span><span =
+style=3D"font-family: Consolas; color: rgb(38, 38, =
+38);-en-paragraph:true;">=C2=A0</span> <span style=3D"font-family: =
+Consolas; color: rgb(0, 176, 80);-en-paragraph:true;">//</span><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; color: rgb(0, 176, =
+80);-en-paragraph:true;">=E7=BB=93=E6=9E=9C=E4=B8=BA</span><span =
+style=3D"font-family: Consolas; color: rgb(0, 176, =
+80);-en-paragraph:true;">obj</span> <span style=3D"font-family: =
+=E5=AE=8B=E4=BD=93; color: rgb(0, 176, =
+80);-en-paragraph:true;">=E5=AF=B9=E8=B1=A1=E6=9C=AC=E8=BA=AB</span></fon=
+t></div></td></tr></tbody></table><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"-en-paragraph:true;"><font =
+style=3D"font-size: 12pt;">=C2=A0</font></span></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><font style=3D"font-size: =
+12pt;"><span style=3D"font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E4=BB=8E=E4=BB=A3=E7=A0=81=E5=BD=93=E4=B8=
+=AD=E6=88=91=E4=BB=AC=E5=88=86=E6=98=8E=E5=8F=AF=E4=BB=A5=E7=9C=8B=E5=87=BA=
+=EF=BC=8C</span> <span style=3D"font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E4=BA=8C=E8=80=85=E8=B0=83=E7=94=A8=E7=9A=
+=84=E5=85=B6=E5=AE=9E=E6=98=AF=E5=90=8C=E4=B8=80=E4=B8=AA=E5=87=BD=E6=95=B0=
+=E3=80=82</span></font></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E5=8F=AF=E4=B8=BA=E4=BB=80=E4=B9=88=E7=BB=
+=93=E6=9E=9C=E4=B8=8D=E5=90=8C=E5=91=A2=EF=BC=9F</span><span =
+style=3D"mso-spacerun: yes;-en-paragraph:true;">=C2=A0</span> <span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E5=9B=A0=E4=B8=BA=E5=87=BD=E6=95=B0=E6=AD=
+=A4=E5=88=BB=E6=89=80=E4=BE=9D=E9=99=84=E7=9A=84=E5=AF=B9=E8=B1=A1=E4=B8=8D=
+=E5=90=8C=E4=BA=86=E3=80=82</span></font></div><div style=3D"margin-top: =
+1em; margin-bottom: 1em;"><span style=3D"font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=E5=B0=B1=E5=A5=BD=E5=83=8F=E5=90=8C=E4=B8=80=E5=8F=A5=E8=AF=9D=EF=
+=BC=8C=E5=87=BA=E8=87=AA=E4=B8=8D=E5=90=8C=E4=BA=BA=E4=B9=8B=E5=8F=A3=EF=BC=
+=8C=E4=BB=A3=E8=AF=8D=E6=8C=87=E5=90=91=E7=9A=84=E7=9B=AE=E6=A0=87=E5=88=99=
+=E4=BC=9A=E4=B8=8D=E4=B8=80=E6=A0=B7=E3=80=82</font></span></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><span style=3D"color: =
+#0070C0;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=C2=A0</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><font style=3D"font-size: 12pt;"><span =
+style=3D"color: #0070C0;-en-paragraph:true;">A</span><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: #0070C0;-en-paragraph:true;">=E5=AF=B9</span><span =
+style=3D"color: #0070C0;-en-paragraph:true;">B</span><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: =
+#0070C0;-en-paragraph:true;">=E8=AF=B4=EF=BC=9A=E2=80=9C=E8=80=81=E5=AD=90=
+=E8=A6=81=E6=9D=80=E4=BA=86=E4=BD=A0=EF=BC=81=E2=80=9D</span><span =
+style=3D"color: #0070C0; mso-spacerun: =
+yes;-en-paragraph:true;">=C2=A0=C2=A0</span></font></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><font style=3D"font-size: =
+12pt;"><span style=3D"font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin; color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E8=BF=99=E9=87=8C=E7=9A=84</span> <span =
+style=3D"font-weight: bold; mso-bidi-font-weight: normal; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E8=80=81=E5=AD=90</span> <span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E6=8C=87=E4=BB=A3</span><span =
+style=3D"font-weight: bold; mso-bidi-font-weight: normal; color: black; =
+mso-themecolor: text1;-en-paragraph:true;">A</span> <span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=EF=BC=8C</span> <span style=3D"font-weight: =
+bold; mso-bidi-font-weight: normal; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin; color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E4=BD=A0</span> <span style=3D"font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E6=8C=87=E4=BB=A3</span><span =
+style=3D"font-weight: bold; mso-bidi-font-weight: normal; color: black; =
+mso-themecolor: text1;-en-paragraph:true;">B</span></font></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><font style=3D"font-size: =
+12pt;"><span style=3D"color: #0070C0;-en-paragraph:true;">B</span><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: #0070C0;-en-paragraph:true;">=E5=AF=B9</span><span =
+style=3D"color: #0070C0;-en-paragraph:true;">A</span><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: #0070C0;-en-paragraph:true;">=E8=AF=B4=EF=BC=9A</span><span =
+style=3D"color: #0070C0;-en-paragraph:true;">=E2=80=9D</span><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: =
+#0070C0;-en-paragraph:true;">=E8=80=81=E5=AD=90=E8=A6=81=E5=BC=84=E6=AD=BB=
+=E4=BD=A0=EF=BC=81</span><span style=3D"color: =
+#0070C0;-en-paragraph:true;">=E2=80=9D</span></font></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><font style=3D"font-size: =
+12pt;"><span style=3D"font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin; color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E8=BF=99=E9=87=8C=E7=9A=84</span> <span =
+style=3D"font-weight: bold; mso-bidi-font-weight: normal; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E8=80=81=E5=AD=90</span> <span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E6=8C=87=E4=BB=A3</span><span =
+style=3D"font-weight: bold; mso-bidi-font-weight: normal; color: black; =
+mso-themecolor: text1;-en-paragraph:true;">B</span> <span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=EF=BC=8C</span> <span style=3D"font-weight: =
+bold; mso-bidi-font-weight: normal; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin; color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E4=BD=A0</span> <span style=3D"font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: black; mso-themecolor: =
+text1;-en-paragraph:true;">=E6=8C=87=E4=BB=A3</span><span =
+style=3D"font-weight: bold; mso-bidi-font-weight: normal; color: black; =
+mso-themecolor: text1;-en-paragraph:true;">A</span></font></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"font-family: =E5=AE=8B=E4=BD=93; mso-ascii-font-family: =
+Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; =
+color: red;-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=E6=9C=80=E5=90=8E=E4=B8=80=E4=B8=AA=E5=AE=9E=E9=AA=8C=EF=BC=9A</f=
+ont></span></div><table style=3D"border-collapse: collapse; min-width: =
+100%;"><colgroup><col style=3D"width: =
+426px;"></col></colgroup><tbody><tr><td style=3D"height: 50.15pt; =
+background-color: rgb(242, 242, 242); width: 426px; padding: 8px; =
+border: 1px solid rgb(204, 204, 204);"><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"-en-paragraph:true;"><font =
+style=3D"font-size: 12pt;">target.onclick =3D =
+function(){</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"-en-paragraph:true;"><font =
+style=3D"font-size: =
+12pt;">setInterval(function(){</font></span></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><font style=3D"font-size: =
+12pt;"><span style=3D"-en-paragraph:true;">=C2=A0=C2=A0=C2=A0</span> =
+<span style=3D"-en-paragraph:true;">console.log(this); //</span><span =
+style=3D"font-family: =
+=E5=AE=8B=E4=BD=93;-en-paragraph:true;">=E8=BF=99=E9=87=8C=E7=9A=84</span=
+><span style=3D"-en-paragraph:true;">this</span><span =
+style=3D"font-family: =
+=E5=AE=8B=E4=BD=93;-en-paragraph:true;">=E6=98=AF=E4=BB=80=E4=B9=88=EF=BC=
+=9F</span></font></div><div style=3D"margin-top: 1em; margin-bottom: =
+1em;"><span style=3D"-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">},50);</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"-en-paragraph:true;"><font =
+style=3D"font-size: =
+12pt;">}</font></span></div></td></tr></tbody></table><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"-en-paragraph:true;"><font style=3D"font-size: =
+12pt;">=C2=A0</font></span></div><div style=3D"margin-top: 1em; =
+margin-bottom: 1em;"><span style=3D"font-size: 14.0pt; =
+mso-bidi-font-size: 11.0pt; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E8=A1=A8=E9=9D=A2=E4=B8=8A=E7=9C=8B=EF=BC=
+=8C</span><span style=3D"font-size: 14.0pt; mso-bidi-font-size: =
+11.0pt;-en-paragraph:true;">this</span><span style=3D"font-size: 14.0pt; =
+mso-bidi-font-size: 11.0pt; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E5=A4=84=E4=BA=8E</span><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: =
+11.0pt;-en-paragraph:true;">onclick</span><span style=3D"font-size: =
+14.0pt; mso-bidi-font-size: 11.0pt; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E5=87=BD=E6=95=B0=E5=BD=93=E4=B8=AD=E3=80=
+=82=E9=82=A3=E4=B9=88=E6=88=91=E4=BB=AC=E5=8F=AF=E8=83=BD=E4=BC=9A=E7=9B=B4=
+=E8=A7=82=E7=9A=84=E8=AE=A4=E4=B8=BA=EF=BC=8C</span></div><div =
+style=3D"margin-top: 1em; margin-bottom: 1em;"><span style=3D"font-size: =
+14.0pt; mso-bidi-font-size: 11.0pt;-en-paragraph:true;">this</span><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: 11.0pt; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E6=8C=87=E7=9A=84=E5=BA=94=E8=AF=A5=E6=98=
+=AF</span><span style=3D"font-size: 14.0pt; mso-bidi-font-size: =
+11.0pt;-en-paragraph:true;">target</span><span style=3D"font-size: =
+14.0pt; mso-bidi-font-size: 11.0pt; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E3=80=82=E4=BD=86=E5=BE=88=E6=98=BE=E7=84=
+=B6=E8=BF=99=E4=B8=AA=E7=AD=94=E6=A1=88=E9=94=99=E8=AF=AF=E3=80=82</span>=
+</div><div style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: =
+11.0pt;-en-paragraph:true;">=C2=A0</span></div><div style=3D"margin-top: =
+1em; margin-bottom: 1em;"><span style=3D"font-size: 14.0pt; =
+mso-bidi-font-size: 11.0pt;-en-paragraph:true;">this</span><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: 11.0pt; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E6=9C=AC=E8=B4=A8=E4=B8=8A=E6=98=AF=E5=A4=
+=84=E4=BA=8E=E5=AE=9A=E6=97=B6=E5=99=A8=E7=9A=84=E5=8C=BF=E5=90=8D=E5=87=BD=
+=E6=95=B0=E5=BD=93=E4=B8=AD=EF=BC=8C=E8=80=8C=E8=BF=99=E4=B8=AA=E5=8C=BF=E5=
+=90=8D=E5=87=BD=E6=95=B0=E6=98=AF=E5=9C=A8=E5=85=A8=E5=B1=80=E8=8C=83=E5=9B=
+=B4=E8=A2=AB=E8=B0=83=E7=94=A8=E7=9A=84=EF=BC=8C=E7=9B=B8=E5=BD=93=E4=BA=8E=
+=E5=A6=82=E4=B8=8B=E4=BB=A3=E7=A0=81=EF=BC=9A</span></div><table =
+style=3D"border-collapse: collapse; min-width: 100%;"><colgroup><col =
+style=3D"width: 426px;"></col></colgroup><tbody><tr =
+style=3D"mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes"><td =
+style=3D"background-color: rgb(217, 217, 217); width: 426px; padding: =
+8px; border: 1px solid rgb(204, 204, 204);"><div style=3D"margin-top: =
+1em; margin-bottom: 1em;"><span style=3D"font-size: 14.0pt; =
+mso-bidi-font-size: 11.0pt;-en-paragraph:true;">window.</span><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: 11.0pt; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E5=8C=BF=E5=90=8D=E5=87=BD=E6=95=B0</sp=
+an><span style=3D"font-size: 14.0pt; mso-bidi-font-size: =
+11.0pt;-en-paragraph:true;">();</span></div></td></tr></tbody></table><di=
+v style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: 11.0pt; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E5=9B=A0=E6=AD=A4=EF=BC=8C=E8=BF=99=E9=87=
+=8C=E7=9A=84</span><span style=3D"font-size: 14.0pt; mso-bidi-font-size: =
+11.0pt;-en-paragraph:true;">this</span><span style=3D"font-size: 14.0pt; =
+mso-bidi-font-size: 11.0pt; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E6=8C=87=E7=9A=84=E6=98=AF</span><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: =
+11.0pt;-en-paragraph:true;">window</span><span style=3D"font-size: =
+14.0pt; mso-bidi-font-size: 11.0pt; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E5=AF=B9=E8=B1=A1=E3=80=82</span></div>=
+<div style=3D"margin-top: 1em; margin-bottom: 1em;"><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: =
+11.0pt;-en-paragraph:true;">=C2=A0</span></div><div><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: 11.0pt; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E6=B3=A8=EF=BC=9A=E5=9C=A8=E4=B8=A5=E6=A0=
+=BC=E6=A8=A1=E5=BC=8F=E4=B8=8B=EF=BC=8C</span><span style=3D"font-size: =
+14.0pt; mso-bidi-font-size: 11.0pt;-en-paragraph:true;">this</span><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: 11.0pt; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E6=98=AF=E4=B8=8D=E5=85=81=E8=AE=B8=E6=8C=
+=87=E5=90=91</span><span style=3D"font-size: 14.0pt; mso-bidi-font-size: =
+11.0pt;-en-paragraph:true;">window</span><span style=3D"font-size: =
+14.0pt; mso-bidi-font-size: 11.0pt; font-family: =E5=AE=8B=E4=BD=93; =
+mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; =
+mso-fareast-font-family: =E5=AE=8B=E4=BD=93; mso-fareast-theme-font: =
+minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E7=9A=84=EF=BC=8C=E5=BD=93=E5=87=BA=E7=8E=
+=B0=E6=8C=87=E5=90=91</span><span style=3D"font-size: 14.0pt; =
+mso-bidi-font-size: 11.0pt;-en-paragraph:true;">window</span><span =
+style=3D"font-size: 14.0pt; mso-bidi-font-size: 11.0pt; font-family: =
+=E5=AE=8B=E4=BD=93; mso-ascii-font-family: Calibri; =
+mso-ascii-theme-font: minor-latin; mso-fareast-font-family: =
+=E5=AE=8B=E4=BD=93; mso-fareast-theme-font: minor-fareast; =
+mso-hansi-font-family: Calibri; mso-hansi-theme-font: =
+minor-latin;-en-paragraph:true;">=E7=9A=84=E6=83=85=E5=86=B5=EF=BC=8C=E4=BC=
+=9A=E6=8A=A5=E9=94=99=E3=80=82</span></div></div></span>=0A</div></body><=
+/html>
+ 

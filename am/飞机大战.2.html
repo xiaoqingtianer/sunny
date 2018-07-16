@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="dahuiji.css" />
+</head>
+<body>
+	<div id="body_main" class="main">
+			<ul id="options" class="options">
+				<li value="1">超级困难</li>
+				<li value="2">非常困难</li>
+				<li value="3">比较困难</li>
+				<li value="4">就选我吧</li>
+			</ul>
+	</div>
+</body>	
+<script src="js/jquery-3.2.1.js"></script>
+<script>
+	// $(function(){
+	// 	alert(1);
+	// })
+	// (function(){
+	// })()
+
+	+function($){
+		//1. 优化性能;
+		//2. 防止命名冲突;
+		// console.log($);
+		// 引擎对象;
+		function Engine(){}
+		$.extend(Engine.prototype,{
+			init:function(){
+				this.mainElem = $("#body_main");
+				this.option = $("#options");
+				this.optionsElem = $("#options li"); 
+				this.handleClick();
+			},
+			//绑定事件功能;
+			handleClick:function(){
+				// this.optionsElem.on("click",this.passMove.bind(this))
+				// $.proxy === bind
+				// $. proxy (function , context);  ==  function.bind(context)
+				// 在函数体上更改this指向;
+				this.optionsElem.on("click",$.proxy(this.passMove,this));
+			},
+			//过场动画功能
+			passMove:function(event){
+				// console.log(this);
+				// this????
+				// --satrt 元素退场 --- 
+				var target = event.target || event.srcElement;
+				// console.log($(target).index());
+				//游戏等级;
+				// 0 超级困难 1 非常困难  2 比较困难 3 就选我吧
+				this.level = $(target).index();
+				this.option.remove();
+				// --end 元素退场 --- 
+				// --start  元素入场--- 
+				var logo = createElem("logo");
+				logo.slideDown();
+				var loading = createElem("loading");
+				loading.fadeIn();
+				// --end  元素入场--- 
+				// --strat 动画 ---
+				// 飞机动画;
+				var index = 0;
+				var loadingTimer = setInterval(function(){
+					loading.css({
+						background:"url(images/loading"+ (++index % 3 + 1) +".png) no-repeat"
+					})
+				},500)
+				// 背景动画;
+				var bgTimer = setInterval($.proxy(function(){
+					this.mainElem.css({
+						backgroundPositionY:"+=10"
+					})
+				},this),80)
+				// --end 动画---;
+				// --start 动画终止 游戏开场;
+				setTimeout($.proxy(function(){
+					logo.fadeOut(function(){
+						logo.remove();
+					});
+					loading.fadeOut(function(){
+						loading.remove();
+						clearInterval(loadingTimer);
+					});
+					this.startGame();
+				},this),1000)	
+				// --end 动画终止 游戏开场;
+			},
+			startGame:function(){
+				// console.log("游戏开始");
+				plane.init(this.level);
+				setInterval($.proxy(function(){
+					Math.random() > 0.5 ?new Enemy().init("small") : "";
+				},this),800)
+
+				setInterval($.proxy(function(){
+					Math.random() > 0.8 ?new Enemy().init("middle") : "";
+				},this),1200)
+
+				setInterval($.proxy(function(){
+					Math.random() > 0.9 ?new Enemy().init("large") : "";
+				},this),1000)
+			}	
+		});
+
+		//飞机功能;
+		var plane = {
+			bulletArray:[],
+			init:function(level){
+				this.elem = createElem("my-warplain");
+				this.elem.fadeIn();
+				// 初始化飞机的位置;
+				this.position = {
+					x:document.documentElement.clientWidth / 2 - this.elem.width() / 2,
+					y:document.documentElement.clientHeight - this.elem.height(),
+				}
+				this.handleEvent();
+				this.planeMove();
+				//开火;
+				var frequency ;
+				switch(level){
+					case 0: frequency = 800;
+							break;
+					case 1:
+							frequency = 500;
+							break;
+					case 2:
+							frequency = 300;
+							break;
+					case 3:
+							frequency = 50;
+							break;
+				}
+				this.fireTimer = setInterval($.proxy(function(){
+						this.fire();
+				},this),frequency)
+			},
+			handleEvent:function(){
+				$(document).on("mousemove",$.proxy(function(event){
+					this.position.x = event.clientX - this.elem.width() / 2;
+					this.position.y = event.clientY - this.elem.height() / 2;
+					this.planeMove();
+				},this))
+				$(document).on("keydown",$.proxy(function(event){
+					var keyCode = event.keyCode || event.which;
+					switch(keyCode){
+						case 37:
+								this.position.x -= 20 ;
+								break;
+						case 38:
+								this.position.y -= 20 ;
+								break;
+						case 39:
+								this.position.x += 20 ;
+								break;
+						case 40:
+								this.position.y += 20;
+								break;
+					}
+					this.planeMove();
+				},this))
+			},
+			planeMove:function(){
+				var left = this.position.x;
+				// 边界检测; 一大一小;
+				var minLeft = $("#body_main").offset().left ;
+				var maxLeft = minLeft + $("#body_main").width() - this.elem.width() ;
+				left = left <= minLeft ? minLeft : left;
+				left = left >= maxLeft ? maxLeft : left;
+				
+				this.elem.css({
+					left:left,
+					top:this.position.y
+				})
+			},
+			fire:function(){
+				var bullet = new Bullet();
+				bullet.init();
+				this.bulletArray.push(bullet);
+			}
+		}
+		// 子弹功能;
+		function Bullet(){}
+		$.extend(Bullet.prototype,{
+			init:function(){
+				this.elem = createElem("bullet");
+				this.elem.show();
+				this.bulletMove();
+				// console.log(plane.position);
+				this.elem.css({
+					left:plane.elem.offset().left + plane.elem.width() / 2 - this.elem.width() / 2,
+					top:plane.elem.offset().top - this.elem.height()
+				})
+			},
+			bulletMove:function(){
+				this.bulletTimer = setInterval($.proxy(function(){
+					if(this.elem.offset().top <= 0){
+						this.bulletBoom();
+					}
+					this.elem.css({
+						top:"-=10"
+					})
+				},this),80)
+			},
+			bulletBoom:function(){
+				clearInterval(this.bulletTimer);
+				this.elem.addClass("bullet_die");
+				setTimeout($.proxy(function(){
+					var index = plane.bulletArray.indexOf(this);
+					// console.log(index)
+					plane.bulletArray.splice(index,1);
+					this.elem.remove();	
+				},this),50)
+			}
+		})
+
+		// 敌机;
+		function Enemy(){
+			// 1. 长得不一样 (背景图不同 class不同)
+			// 2. 耐揍程度不同 ( HP 血量 );
+			// 3. 速度是不一样的 ( speed );
+		}
+		$.extend(Enemy.prototype,{
+			init:function(type){
+				// 策略模式;
+				var strategy = {
+					small:function(){
+						this.elem = createElem("enemy-small");
+						this.elem.show();
+						this.hp = 1;
+						this.speed = 15;
+					},
+					middle:function(){
+						this.elem = createElem("enemy-middle");
+						this.elem.show();
+						this.hp = 5;
+						this.speed = 5;
+					},
+					large:function(){
+						this.elem = createElem("enemy-large");
+						this.elem.show();
+						this.hp = 20;
+						this.speed = 2;
+					}
+				}
+				strategy[type].call(this);
+				// 类型 ; small middle large;
+				// console.log(this);
+				// console.log(this.enemyRandomPosition());
+				this.elem.css({
+					top:0,
+					left:this.enemyRandomPosition()
+				})
+
+				this.enemyMove();
+			},
+			enemyRandomPosition:function(){
+				var minLeft = $("#body_main").offset().left;
+				var maxLeft = minLeft + $("#body_main").width() - this.elem.width();
+				return minLeft + Math.round(Math.random() * (maxLeft - minLeft));
+			},
+			enemyMove:function(){
+				this.enemyTimer = setInterval($.proxy(function(){
+					this.elem.css({
+						top:"+="+this.speed
+					})
+					this.collision();
+				},this),80)
+			},
+			collision:function(){
+				// console.log(plane.bulletArray);
+			}
+		})
+
+		function createElem(className){
+			var elem = $("<div></div>");
+			elem.addClass(className);
+			elem.hide();
+			$("body").append(elem);
+			return elem;
+		}
+		var engine = new Engine();
+		engine.init();
+	}(jQuery)
+</script>
+</html>	
